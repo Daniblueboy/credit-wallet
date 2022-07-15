@@ -1,0 +1,38 @@
+a{
+    text-decoration: none;
+}
+.sidebar-nav{
+    background: #FEE9DF;
+}
+.sidebar-nav li{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+}
+.dash-heading{
+    font-family: 'Proxima Nova';
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 24px !important;
+    line-height: 29px !important;
+    color: #F56B2A;
+}
+
+.dash-main{
+    background-color: #333333 !important;
+}
+
+.dash-main span{
+    color: #FEE9DF !important;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.nav-link{
+    color: #333333 !important;
+}
