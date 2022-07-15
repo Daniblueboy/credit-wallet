@@ -1,4 +1,6 @@
 @import "~bootstrap/dist/css/bootstrap.css";
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+
 *{
     margin: 0;
     padding: 0;

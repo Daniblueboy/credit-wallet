@@ -1,0 +1,62 @@
+.main h3 {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    color: #333333;
+}
+
+.single-card .card{
+    width: 231px !important;
+    background: #F56B2A !important;
+}
+
+.single-card h2{
+    color: #fff !important;
+}
+
+.card-widget {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.card-widget h3 {
+    font-size: 14px;
+    line-height: 14px;
+    color: #333333;
+    text-decoration: underline;
+}
+
+.card-widget h6 {
+    font-size: 12px;
+    line-height: 12px;
+    color: #828282;
+}
+
+.card-widget h2 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    color: #F56B2A;
+}
+
+.card-widget p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #828282 !important;
+}
+
+.card-widget .card {
+    background: #FCFBFB;
+    border-radius: 10px;
+    width: 232px;
+    /* height: 245px; */
+    box-shadow: 1px 0px 2px 1px rgba(0, 0, 0, 0);
+}
+
+.hr{
+    border-top: 1px solid black;
+}

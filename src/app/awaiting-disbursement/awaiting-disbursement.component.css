@@ -1,4 +1,4 @@
-main h3{
+main h3 {
     font-family: 'Josefin Sans';
     font-style: normal;
     font-weight: 600;
@@ -7,7 +7,24 @@ main h3{
     color: #333333;
 }
 
-th{
+.tab-btn-holder2 {
+    height: 44px;
+    /* border: 1px solid #E0E0E0; */
+    border-radius: 5px;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    color: #333333;
+}
+
+.active-tab {
+    color: #F56B2A;
+    border-bottom: 1px solid #F56B2A !important;
+}
+
+th {
     background: #FEE9DF;
     font-family: 'Josefin Sans';
     font-style: normal;
@@ -18,7 +35,7 @@ th{
     padding: 15px;
 }
 
-td{
+td {
     font-family: 'Josefin Sans';
     font-style: normal;
     font-weight: 400;
@@ -28,6 +45,6 @@ td{
     color: #000000;
 }
 
-.view-btn{
+.view-btn {
     background: #F56B2A !important;
 }

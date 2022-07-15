@@ -44,8 +44,8 @@
     line-height: 14px;
 }
 
-.dropdown-cards{
-    background: #FCFCFC;
+.dropdown-cards .mat-expansion-panel{
+    background: #FCFCFC !important;
     border-radius: 10px;
 }
 
@@ -93,7 +93,7 @@
     border-bottom: 1px solid #F56B2A !important;
 }
 
-.dropdown-cards-green{
+.dropdown-cards-green .mat-expansion-panel{
     background: #6FCF97 !important;
     /* opacity: 0.2; */
     border-radius: 10px;

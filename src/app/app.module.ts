@@ -12,6 +12,15 @@ import { VerificationComponent } from './verification/verification.component';
 import { AccordionModule } from 'ngx-bootstrap/accordion';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatExpansionModule } from '@angular/material/expansion';
+import { LoanDisbursementComponent } from './loan-disbursement/loan-disbursement.component';
+import { MatSlideToggleModule } from '@angular/material/slide-toggle';
+import { MatTableModule } from '@angular/material/table';
+import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatCheckboxModule } from '@angular/material/checkbox';
+import { AwaitingDisbursementComponent } from './awaiting-disbursement/awaiting-disbursement.component';
+import { RecoveryNotYetContactedComponent } from './recovery-not-yet-contacted/recovery-not-yet-contacted.component';
+import { RecoveryComponent } from './recovery/recovery.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +31,10 @@ import { MatExpansionModule } from '@angular/material/expansion';
     ChartComponent,
     LoansComponent,
     VerificationComponent,
+    LoanDisbursementComponent,
+    AwaitingDisbursementComponent,
+    RecoveryNotYetContactedComponent,
+    RecoveryComponent,
   ],
   imports: [
     BrowserModule,
@@ -29,6 +42,11 @@ import { MatExpansionModule } from '@angular/material/expansion';
     AccordionModule.forRoot(),
     BrowserAnimationsModule,
     MatExpansionModule,
+    MatSlideToggleModule,
+    MatTableModule,
+    MatPaginatorModule,
+    MatFormFieldModule,
+    MatCheckboxModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

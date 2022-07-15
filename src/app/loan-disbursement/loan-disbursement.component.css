@@ -1,0 +1,95 @@
+.disbursement-details{
+    background: #FCFCFC;
+    border-radius: 10px;
+}
+
+.disbursement-details h4{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.disbursement-details h6{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #828282;
+}
+
+.disbursement-details p{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 14px;
+    color: #000000;
+}
+
+.default-select-value{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #828282;
+}
+
+select option{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #000000;
+}
+
+select{
+    background: #FCFCFC !important;
+}
+
+.header-h3{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    color: #333333;
+}
+
+.bottom-card{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    
+}
+
+.bottom-card h5{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    color: #000000;
+    padding: 15px;
+}
+
+.bottom-card table th{
+    background: #FEE9DF;
+    padding: 15px;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.bottom-card table td {
+    padding: 15px;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 14px;
+}

@@ -1,4 +1,4 @@
-main h3{
+main h3 {
     font-family: 'Josefin Sans';
     font-style: normal;
     font-weight: 600;
@@ -7,7 +7,7 @@ main h3{
     color: #333333;
 }
 
-th{
+th {
     background: #FEE9DF;
     font-family: 'Josefin Sans';
     font-style: normal;
@@ -18,7 +18,7 @@ th{
     padding: 15px;
 }
 
-td{
+td {
     font-family: 'Josefin Sans';
     font-style: normal;
     font-weight: 400;
@@ -28,6 +28,6 @@ td{
     color: #000000;
 }
 
-.view-btn{
+.view-btn {
     background: #F56B2A !important;
 }
