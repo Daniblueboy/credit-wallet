@@ -1,0 +1,21 @@
+.greeting{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 36px;
+    color: #333333;
+}
+
+.username{
+    color: #828282;
+}
+
+.current-date{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    color: #333333;
+}
