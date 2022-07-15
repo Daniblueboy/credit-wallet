@@ -1,0 +1,461 @@
+<div class="row">
+    <app-sidebar class="col-lg-2 d-lg-block" id="navmenu"></app-sidebar>
+    <div class="col-md-12 col-xs-12 ms-sm-auto col-lg-10 px-md-4">
+        <div class="container">
+            <app-header></app-header>
+            <section>
+                <main class="container">
+                    <div class="d-flex align-items-center client-name-container p-4">
+                        <div class="me-3">
+                            <img src="./assets/profile-placeholder.png" alt="profile-placeholder" width="80" height="80"
+                                class="rounded-circle">
+                        </div>
+                        <h3>Mr. Sunday Tanko Medon</h3>
+                    </div>
+                    <div class="dashboard-main-container p-4">
+                        <div class="action-btn-holder my-3 container">
+                            <button type="button" class="btn mx-3 reject-btn">Reject</button>
+                            <button type="button" class="btn cancel-btn">Cancel</button>
+                        </div>
+                        <div class="action-btn-holder2 d-flex justify-content-around">
+                            <button type="button" class="btn">Generate Offer Letter</button>
+                            <button type="button" class="btn">Edit Loan Record</button>
+                            <button type="button" class="btn">Add Comment</button>
+                            <button type="button" class="btn">Process for Awaiting Disbursement</button>
+                            <button type="button" class="btn">Upload Documents</button>
+                        </div>
+                        <div class="row my-4">
+                            <div class="col dropdown-cards mx-1">
+                                <mat-accordion>
+                                    <mat-expansion-panel hideToggle>
+                                        <p>This is the primary content of the panel.</p>
+                                    </mat-expansion-panel>
+                                    <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+                                        <mat-expansion-panel-header class="mb-3 p-3">
+                                            <mat-panel-title class="border-bottom">
+                                                <h5>Loan Details</h5> 
+                                            </mat-panel-title>
+                                        </mat-expansion-panel-header>
+                                        <div class="d-flex justify-content-between">
+                                            <h6>ID</h6>
+                                            <p>72235</p>
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <h6>Mode of Application</h6>
+                                            <p>Web</p>
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <h6>Credit Score</h6>
+                                            <p>3683</p>
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <h6>Date Created</h6>
+                                            <p>Apr 13, 2021</p>
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <h6>Marketer</h6>
+                                            <p>Blessing Ebute</p>
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <h6>Status</h6>
+                                            <p>Processing</p>
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <h6>Offer Letter</h6>
+                                            <p>Generated</p>
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <h6>Document</h6>
+                                            <p>No Document</p>
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <h6>Remita</h6>
+                                            <p>No Remita</p>
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <h6>Verification Status</h6>
+                                            <p>Verified</p>
+                                        </div>
+                                    </mat-expansion-panel>
+                                </mat-accordion>
+                            </div>
+                            <div class="col dropdown-cards mx-1">
+                                <mat-accordion>
+                                    <mat-expansion-panel hideToggle>
+                                        <p>This is the primary content of the panel.</p>
+                                    </mat-expansion-panel>
+                                    <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+                                        <mat-expansion-panel-header class="mb-3 p-3">
+                                            <mat-panel-title class="border-bottom">
+                                                <h5>Personal Information</h5>
+                                            </mat-panel-title>
+                                        </mat-expansion-panel-header>
+                                        <div class="d-flex justify-content-between">
+                                            <h6>Title</h6>
+                                            <p>Mr</p>
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <h6>First Name</h6>
+                                            <p>Sunday Tanko</p>
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <h6>Last Name</h6>
+                                            <p>Medon</p>
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <h6>Gender</h6>
+                                            <p>Male</p>
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <h6>Date of Birth</h6>
+                                            <p>15/01/1968</p>
+                                        </div>
+                                    </mat-expansion-panel>
+                                </mat-accordion>
+                            </div>
+                        </div>
+                        <div  class="row my-4">
+                            <div class="col dropdown-cards mx-1">
+                                <mat-accordion>
+                                    <mat-expansion-panel hideToggle>
+                                        <p>This is the primary content of the panel.</p>
+                                    </mat-expansion-panel>
+                                    <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+                                        <mat-expansion-panel-header class="mb-3 p-3">
+                                            <mat-panel-title class="border-bottom">
+                                                <h5>Bank Information</h5>
+                                            </mat-panel-title>
+                                        </mat-expansion-panel-header>
+                                        <div class="d-flex justify-content-between">
+                                            <h6>ID</h6>
+                                            <p>72235</p>
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <h6>Mode of Application</h6>
+                                            <p>Web</p>
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <h6>Credit Score</h6>
+                                            <p>3683</p>
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <h6>Date Created</h6>
+                                            <p>Apr 13, 2021</p>
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <h6>Marketer</h6>
+                                            <p>Blessing Ebute</p>
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <h6>Status</h6>
+                                            <p>Processing</p>
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <h6>Offer Letter</h6>
+                                            <p>Generated</p>
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <h6>Document</h6>
+                                            <p>No Document</p>
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <h6>Remita</h6>
+                                            <p>No Remita</p>
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <h6>Verification Status</h6>
+                                            <p>Verified</p>
+                                        </div>
+                                    </mat-expansion-panel>
+                                </mat-accordion>
+                            </div>
+                            <div class="col dropdown-cards mx-1">
+                                <mat-accordion>
+                                    <mat-expansion-panel hideToggle>
+                                        <p>This is the primary content of the panel.</p>
+                                    </mat-expansion-panel>
+                                    <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+                                        <mat-expansion-panel-header class="mb-3 p-3">
+                                            <mat-panel-title class="border-bottom">
+                                                <h5>Contact Information</h5>
+                                            </mat-panel-title>
+                                        </mat-expansion-panel-header>
+                                        <div class="d-flex justify-content-between">
+                                            <h6>Title</h6>
+                                            <p>Mr</p>
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <h6>First Name</h6>
+                                            <p>Sunday Tanko</p>
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <h6>Last Name</h6>
+                                            <p>Medon</p>
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <h6>Gender</h6>
+                                            <p>Male</p>
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <h6>Date of Birth</h6>
+                                            <p>15/01/1968</p>
+                                        </div>
+                                    </mat-expansion-panel>
+                                </mat-accordion>
+                            </div>
+                        </div>
+                        <div class="tab-btn-holder2 d-flex justify-content-around">
+                            <button type="button" class="btn active-tab border-bottom">Verification and Affordability</button>
+                            <button type="button" class="btn">Approval Checklist</button>
+                            <button type="button" class="btn">Loan Disk</button>
+                            <button type="button" class="btn">Loan Comments</button>
+                            <button type="button" class="btn">Existing Loan Records</button>
+                            <button type="button" class="btn">Disbursement Details</button>
+                            <button type="button" class="btn">PLAAS Schedule</button>
+                        </div>
+                        <div class="row mt-5">
+                            <div class="col">
+                                <div class="dropdown-cards">
+                                    <mat-accordion>
+                                        <mat-expansion-panel hideToggle>
+                                            <p>This is the primary content of the panel.</p>
+                                        </mat-expansion-panel>
+                                        <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+                                            <mat-expansion-panel-header class="mb-3 p-3">
+                                                <mat-panel-title class="border-bottom">
+                                                    <h5>IPPIS Verification</h5>
+                                                </mat-panel-title>
+                                            </mat-expansion-panel-header>
+                                            <div class="d-flex justify-content-between">
+                                                <h6>Amount</h6>
+                                                <p>72235</p>
+                                            </div>
+                                            <div class="d-flex justify-content-between">
+                                                <h6>Tenor</h6>
+                                                <p>Web</p>
+                                            </div>
+                                            <div class="d-flex justify-content-between">
+                                                <h6>Monthly Repayment</h6>
+                                                <p>3683</p>
+                                            </div>
+                                            <div class="d-flex justify-content-between">
+                                                <h6>Net Pay</h6>
+                                                <p>Apr 13, 2021</p>
+                                            </div>
+                                            <div class="d-flex justify-content-between">
+                                                <h6>Available Balance</h6>
+                                                <p>Blessing Ebute</p>
+                                            </div>
+                                            <div class="d-flex justify-content-between">
+                                                <h6>Amount</h6>
+                                                <p>Processing</p>
+                                            </div>
+                                            <div class="d-flex justify-content-between">
+                                                <h6>Offer Letter</h6>
+                                                <p>Generated</p>
+                                            </div>
+                                            <div class="d-flex justify-content-between">
+                                                <h6>Document</h6>
+                                                <p>No Document</p>
+                                            </div>
+                                            <div class="d-flex justify-content-between">
+                                                <h6>Remita</h6>
+                                                <p>No Remita</p>
+                                            </div>
+                                            <div class="d-flex justify-content-between">
+                                                <h6>Verification Status</h6>
+                                                <p>Verified</p>
+                                            </div>
+                                            <div class="d-flex justify-content-between">
+                                                <h6>Available Balance</h6>
+                                                <p>Blessing Ebute</p>
+                                            </div>
+                                            <div class="d-flex justify-content-between">
+                                                <h6>Amount</h6>
+                                                <p>Processing</p>
+                                            </div>
+                                            <div class="d-flex justify-content-between">
+                                                <h6>Offer Letter</h6>
+                                                <p>Generated</p>
+                                            </div>
+                                            <div class="d-flex justify-content-between">
+                                                <h6>Document</h6>
+                                                <p>No Document</p>
+                                            </div>
+                                            <div class="d-flex justify-content-between">
+                                                <h6>Remita</h6>
+                                                <p>No Remita</p>
+                                            </div>
+                                            <div class="d-flex justify-content-between">
+                                                <h6>Verification Status</h6>
+                                                <p>Verified</p>
+                                            </div>
+                                        </mat-expansion-panel>
+                                    </mat-accordion>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="dropdown-cards dropdown-cards-green">
+                                    <mat-accordion>
+                                        <mat-expansion-panel hideToggle>
+                                            <p>This is the primary content of the panel.</p>
+                                        </mat-expansion-panel>
+                                        <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+                                            <mat-expansion-panel-header class="mb-3 p-3">
+                                                <mat-panel-title class="border-bottom">
+                                                    <h5>Request Details</h5>
+                                                </mat-panel-title>
+                                            </mat-expansion-panel-header>
+                                            <div class="d-flex justify-content-between">
+                                                <h6>ID</h6>
+                                                <p>72235</p>
+                                            </div>
+                                            <div class="d-flex justify-content-between">
+                                                <h6>Mode of Application</h6>
+                                                <p>Web</p>
+                                            </div>
+                                            <div class="d-flex justify-content-between">
+                                                <h6>Credit Score</h6>
+                                                <p>3683</p>
+                                            </div>
+                                            <div class="d-flex justify-content-between">
+                                                <h6>Date Created</h6>
+                                                <p>Apr 13, 2021</p>
+                                            </div>
+                                            <div class="d-flex justify-content-between">
+                                                <h6>Marketer</h6>
+                                                <p>Blessing Ebute</p>
+                                            </div>
+                                            <div class="d-flex justify-content-between">
+                                                <h6>Status</h6>
+                                                <p>Processing</p>
+                                            </div>
+                                            <div class="d-flex justify-content-between">
+                                                <h6>Offer Letter</h6>
+                                                <p>Generated</p>
+                                            </div>
+                                            <div class="d-flex justify-content-between">
+                                                <h6>Document</h6>
+                                                <p>No Document</p>
+                                            </div>
+                                            <div class="d-flex justify-content-between">
+                                                <h6>Remita</h6>
+                                                <p>No Remita</p>
+                                            </div>
+                                            <div class="d-flex justify-content-between">
+                                                <h6>Verification Status</h6>
+                                                <p>Verified</p>
+                                            </div>
+                                        </mat-expansion-panel>
+                                    </mat-accordion>
+                                </div>
+                                <div class="dropdown-cards">
+                                    <mat-accordion>
+                                        <mat-expansion-panel hideToggle>
+                                            <p>This is the primary content of the panel.</p>
+                                        </mat-expansion-panel>
+                                        <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+                                            <mat-expansion-panel-header class="mb-3 p-3">
+                                                <mat-panel-title class="border-bottom">
+                                                    <h5>RSP Details</h5>
+                                                </mat-panel-title>
+                                            </mat-expansion-panel-header>
+                                            <div class="d-flex justify-content-between">
+                                                <h6>ID</h6>
+                                                <p>72235</p>
+                                            </div>
+                                            <div class="d-flex justify-content-between">
+                                                <h6>Mode of Application</h6>
+                                                <p>Web</p>
+                                            </div>
+                                            <div class="d-flex justify-content-between">
+                                                <h6>Credit Score</h6>
+                                                <p>3683</p>
+                                            </div>
+                                            <div class="d-flex justify-content-between">
+                                                <h6>Date Created</h6>
+                                                <p>Apr 13, 2021</p>
+                                            </div>
+                                            <div class="d-flex justify-content-between">
+                                                <h6>Marketer</h6>
+                                                <p>Blessing Ebute</p>
+                                            </div>
+                                            <div class="d-flex justify-content-between">
+                                                <h6>Status</h6>
+                                                <p>Processing</p>
+                                            </div>
+                                            <div class="d-flex justify-content-between">
+                                                <h6>Offer Letter</h6>
+                                                <p>Generated</p>
+                                            </div>
+                                            <div class="d-flex justify-content-between">
+                                                <h6>Document</h6>
+                                                <p>No Document</p>
+                                            </div>
+                                            <div class="d-flex justify-content-between">
+                                                <h6>Remita</h6>
+                                                <p>No Remita</p>
+                                            </div>
+                                            <div class="d-flex justify-content-between">
+                                                <h6>Verification Status</h6>
+                                                <p>Verified</p>
+                                            </div>
+                                        </mat-expansion-panel>
+                                    </mat-accordion>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="table-section mt-3">
+                            <h5>RSP Salary Details</h5>
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">S/N</th>
+                                        <th scope="col">Amount</th>
+                                        <th scope="col">Payment Date</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="table-section mt-3">
+                            <h5>RSP Salary Details</h5>
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">S/N</th>
+                                        <th scope="col">Status</th>
+                                        <th scope="col">Provider</th>
+                                        <th scope="col">Outstanding Amount</th>
+                                        <th scope="col">Loan Disbursement Date</th>
+                                        <th scope="col">Repayment Amount</th>
+                                        <th scope="col">Repayment Frequency</th>
+                                        <th scope="col">Loan Amount</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </main>
+            </section>
+        </div>
+    </div>
+</div>

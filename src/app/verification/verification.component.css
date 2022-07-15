@@ -1,0 +1,124 @@
+.client-name-container{
+    background: #6FCF97;
+}
+
+.client-name-container h3{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    color: #333333;
+}
+
+.action-btn-holder button{
+    width: 84px !important;
+    height: 44px !important;
+    font-family: 'Josefin Sans' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    line-height: 14px !important;
+    color: #fff;
+}
+
+
+.reject-btn{
+    background: #FF1A1A;
+    border-radius: 5px;
+}
+
+.cancel-btn{
+    background: #F2C94C;
+    border-radius: 5px;
+}
+
+.action-btn-holder2 button{
+    height: 44px;
+    border: 1px solid #E0E0E0;
+    border-radius: 5px;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.dropdown-cards{
+    background: #FCFCFC;
+    border-radius: 10px;
+}
+
+.dropdown-cards h6{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 14px;
+    color: #000000;
+}
+
+.dropdown-cards p{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #828282;
+}
+
+.dropdown-cards h5{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.tab-btn-holder2{
+    height: 44px;
+    /* border: 1px solid #E0E0E0; */
+    border-radius: 5px;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    color: #333333;
+}
+
+.active-tab{
+    color: #F56B2A;
+    border-bottom: 1px solid #F56B2A !important;
+}
+
+.dropdown-cards-green{
+    background: #6FCF97 !important;
+    /* opacity: 0.2; */
+    border-radius: 10px;
+}
+
+.table-section h5{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.table-section table th{
+    background: #FEE9DF;
+    padding: 15px;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 14px;
+    color: #4F4F4F;
+}
+
+.table-section table td {
+    padding: 30px;
+}

@@ -7,6 +7,11 @@ import { SidebarComponent } from './shared/sidebar/sidebar.component';
 import { HeaderComponent } from './shared/header/header.component';
 import { AppRoutingModule } from './app-routing.module';
 import { ChartComponent } from './shared/chart/chart.component';
+import { LoansComponent } from './loans/loans.component';
+import { VerificationComponent } from './verification/verification.component';
+import { AccordionModule } from 'ngx-bootstrap/accordion';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatExpansionModule } from '@angular/material/expansion';
 
 @NgModule({
   declarations: [
@@ -14,13 +19,18 @@ import { ChartComponent } from './shared/chart/chart.component';
     HomeComponent,
     SidebarComponent,
     HeaderComponent,
-    ChartComponent
+    ChartComponent,
+    LoansComponent,
+    VerificationComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    AccordionModule.forRoot(),
+    BrowserAnimationsModule,
+    MatExpansionModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
