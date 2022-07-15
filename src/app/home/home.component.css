@@ -1,0 +1,86 @@
+.dashboard-main-container{
+    background: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 1px 0px 2px 1px rgba(0, 0, 0, 0.1);
+}
+
+.card-widget{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+.card-widget h3{
+    font-size: 14px;
+    line-height: 14px;
+    color: #333333;
+    border-color: #000000 !important;
+}
+
+.card-widget h6{
+        font-size: 12px;
+        line-height: 12px;
+        color: #828282;
+}
+
+.card-widget h2{
+    font-size: 24px;
+    line-height: 24px;
+    color: #F56B2A;
+}
+
+.card-widget p{
+    font-size: 24px;
+    line-height: 24px;
+    color: #000000 !important;
+}
+
+.card-widget .card{
+    background: #FCFBFB;
+    border-radius: 10px;
+    width: 232px;
+    /* height: 245px; */
+    box-shadow: 1px 0px 2px 1px rgba(0, 0, 0, 0);
+}
+
+.bottom-widgets .card{
+    background: #FCFBFB;
+    border-radius: 10px;
+    width: 503px;
+    /* height: 410px; */
+}
+
+.bottom-widgets .card th{
+    background: #FEE9DF;
+    border-radius: 5px 5px 0px 0px;
+    border-bottom: 0 !important;
+}
+
+.bottom-widgets h6{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #333333;
+    text-decoration: underline;
+}
+
+.bottom-widgets table th{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 14px;
+    padding: 15px;
+}
+
+.bottom-widgets table td{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    padding: 15px;
+}

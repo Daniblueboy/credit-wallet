@@ -6,13 +6,15 @@ import { HomeComponent } from './home/home.component';
 import { SidebarComponent } from './shared/sidebar/sidebar.component';
 import { HeaderComponent } from './shared/header/header.component';
 import { AppRoutingModule } from './app-routing.module';
+import { ChartComponent } from './shared/chart/chart.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     SidebarComponent,
-    HeaderComponent
+    HeaderComponent,
+    ChartComponent
   ],
   imports: [
     BrowserModule,
