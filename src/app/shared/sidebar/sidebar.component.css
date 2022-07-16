@@ -19,11 +19,12 @@ a{
     color: #F56B2A;
 }
 
-.dash-main{
+.active{
     background-color: #333333 !important;
+    color: #FEE9DF !important;
 }
 
-.dash-main span{
+.dash-slider-item li{
     color: #FEE9DF !important;
     font-style: normal;
     font-weight: 400;
@@ -31,6 +32,6 @@ a{
     line-height: 14px;
 }
 
-.nav-link{
-    color: #333333 !important;
+a{
+    color: #333333 !important
 }
