@@ -1,5 +1,4 @@
 .card-widget{
-    font-family: 'Josefin Sans';
     font-style: normal;
     font-weight: 400;
 
@@ -53,7 +52,6 @@
 }
 
 .bottom-widgets h6{
-    font-family: 'Josefin Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -63,7 +61,6 @@
 }
 
 .bottom-widgets table th{
-    font-family: 'Josefin Sans';
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
@@ -72,7 +69,6 @@
 }
 
 .bottom-widgets table td{
-    font-family: 'Josefin Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;

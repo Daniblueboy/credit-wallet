@@ -1,5 +1,4 @@
 .main h3 {
-    font-family: 'Josefin Sans';
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
@@ -17,7 +16,6 @@
 }
 
 .card-widget {
-    font-family: 'Josefin Sans';
     font-style: normal;
     font-weight: 400;
 }
