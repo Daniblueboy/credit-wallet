@@ -21,6 +21,11 @@ import { MatCheckboxModule } from '@angular/material/checkbox';
 import { AwaitingDisbursementComponent } from './awaiting-disbursement/awaiting-disbursement.component';
 import { RecoveryNotYetContactedComponent } from './recovery-not-yet-contacted/recovery-not-yet-contacted.component';
 import { RecoveryComponent } from './recovery/recovery.component';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatButtonModule } from '@angular/material/button';
+import { MatIconModule } from '@angular/material/icon';
+
 
 @NgModule({
   declarations: [
@@ -47,6 +52,10 @@ import { RecoveryComponent } from './recovery/recovery.component';
     MatPaginatorModule,
     MatFormFieldModule,
     MatCheckboxModule,
+    MatSidenavModule,
+    MatToolbarModule,
+    MatButtonModule,
+    MatIconModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

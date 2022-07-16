@@ -1,8 +1,7 @@
 .greeting{
     font-style: normal;
     font-weight: 600;
-    font-size: 36px;
-    line-height: 36px;
+    font-size: 15px;
     color: #333333;
 }
 
@@ -10,10 +9,69 @@
     color: #828282;
 }
 
+.user-image{
+    width: 25px;
+    height: 25px;
+}
+
 .current-date{
     font-style: normal;
     font-weight: 600;
-    font-size: 18px;
-    line-height: 18px;
+    font-size: 9px;
     color: #333333;
+}
+
+.responsive-sidebar{
+    z-index: 99999;
+}
+
+.example-container {
+    width: 500px;
+    height: 300px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.example-sidenav-content {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.example-sidenav {
+    padding: 20px;
+}
+
+/* media query for tab */
+@media (min-width: 768px) {
+    .greeting {
+        font-size: 20px;
+    }
+
+    .current-date {
+        font-size: 15px;
+
+    }
+
+    .user-image{
+    width: 28px;
+    height: 28px;
+}
+}
+
+/* media query for laptop */
+@media (min-width: 1024px) {
+    .greeting {
+        font-size: 36px;
+    }
+
+    .current-date {
+        font-size: 18px;
+
+    }
+
+    .user-image{
+    width: 32px;
+    height: 32px;
+}
 }
