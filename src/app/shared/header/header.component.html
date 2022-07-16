@@ -1,7 +1,10 @@
 <div class="row">
+    <!-- sidebar component for tab and mobile screens -->
     <div class="col" *ngIf="!isOpen">
         <app-sidebar ></app-sidebar>
     </div>
+
+    <!-- header component -->
     <div class="container mt-5 mb-3">
         <div class="d-flex flex-wrap align-items-center justify-content-evenly justify-content-lg-start">
             <div class="nav col justify-content-center mb-md-0">
@@ -12,22 +15,14 @@
             <div class="col m-2 d-flex justify-content-end align-items-center">
                 <div class="text-end m-2 mt-3">
                     <h3 class="current-date">April 7, 2021</h3>
-                    <!-- <h3>{{today}}</h3> -->
                 </div>
                 <div class="dropdown text-end m-2">
                     <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle">
                         <img src="./assets/profile-pic.png" alt="mdo"  class="rounded-circle user-image">
                     </a>
-                    <!-- <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1">
-                                <li><a class="dropdown-item" href="#">New project...</a></li>
-                                <li><a class="dropdown-item" href="#">Settings</a></li>
-                                <li><a class="dropdown-item" href="#">Profile</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Sign out</a></li>
-                            </ul> -->
                 </div>
+
+                <!-- mobile menu button -->
                 <button class="navbar-toggler navbar-light d-md-block d-lg-none" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navmenu" (click)="openSidebar()">
                     <span class="navbar-toggler-icon"></span>

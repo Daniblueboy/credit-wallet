@@ -1,10 +1,4 @@
-.main h3 {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 24px;
-    color: #333333;
-}
+/* single card styling */
 
 .single-card .card{
     width: 231px !important;
@@ -14,6 +8,8 @@
 .single-card h2{
     color: #fff !important;
 }
+
+/* bottom multiple card styling */
 
 .card-widget {
     font-style: normal;
@@ -51,7 +47,6 @@
     background: #FCFBFB;
     border-radius: 10px;
     width: 232px;
-    /* height: 245px; */
     box-shadow: 1px 0px 2px 1px rgba(0, 0, 0, 0);
 }
 

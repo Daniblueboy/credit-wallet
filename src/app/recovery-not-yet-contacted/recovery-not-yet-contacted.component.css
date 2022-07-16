@@ -1,10 +1,4 @@
-main h3 {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 24px;
-    color: #333333;
-}
+/* main styling mobile first */
 
 th {
     background: #FEE9DF;
@@ -68,6 +62,9 @@ td {
 td p{
     color: #fff;
 }
+
+/* responsive styling for large screens */
+
 /* media query for tab */
 @media (min-width: 768px) {
     .watch-1 {

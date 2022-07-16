@@ -1,13 +1,18 @@
 <div class="row">
+    <!-- sidebar section -->
     <div class="col-2 d-lg-block d-sm-none siderbar-menu">
         <app-sidebar id="navmenu"></app-sidebar>
     </div>
+
+    <!-- main content and header -->
     <div class="col">
         <section>
             <app-header></app-header>
             <main class="container">
                 <div class="dashboard-main-container p-lg-4 p-md-2">
-                    <div class="d-flex flex-wrap justify-content-evenly card-widget">
+
+                    <!-- summary card section -->
+                    <section class="d-flex flex-wrap justify-content-evenly card-widget">
                         <div class="card  m-2 ">
                             <div class="card-body">
                                 <h3 class="py-3 border-bottom border-2">New Applications</h3>
@@ -68,12 +73,14 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="d-flex flex-wrap justify-content-evenly mt-3 py-3 bottom-widgets">
-                        <div class="card m-2">
+                    </section>
+
+                    <!-- bottom card section with chart and table -->
+                    <section class="d-flex flex-wrap justify-content-evenly mt-3 py-3 bottom-widgets">
+                        <div class="card m-2 p-3">
                             <app-chart></app-chart>
                         </div>
-                        <div class="card m-2">
+                        <div class="card m-2 p-3">
                             <h6 class="py-3">Disbursement Report (Past 4 Days)</h6>
                             <table class="table table-striped">
                                 <thead>
@@ -120,7 +127,7 @@
                                 </tbody>
                             </table>
                         </div>
-                    </div>
+                    </section>
                 </div>
             </main>
         </section>

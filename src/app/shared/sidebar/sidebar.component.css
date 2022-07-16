@@ -1,3 +1,4 @@
+/* main sidebar stying */
 a{
     text-decoration: none;
 }
@@ -37,7 +38,7 @@ a{
 }
 
 
-
+/* extended sidebar styling */
 .extended-dash-heading{
     font-style: normal;
     font-weight: 400;
@@ -61,6 +62,8 @@ a{
 .extended-sidebar {
     background: #333333;
 }
+
+/* responsive styling for extended side bar for large screens */
 /* media query for laptop */
 @media (min-width: 1024px) {
     .extended-sidebar {
@@ -69,6 +72,6 @@ a{
             bottom: 60px;
             top: 10px;
             left: 105px;
-            width: 16%;
+            width: 13%;
         }
 }

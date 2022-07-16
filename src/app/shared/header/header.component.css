@@ -1,3 +1,4 @@
+/* responsive styling, mobile first */
 .greeting{
     font-style: normal;
     font-weight: 600;
@@ -41,6 +42,8 @@
 .example-sidenav {
     padding: 20px;
 }
+
+/* styling for large screens */
 
 /* media query for tab */
 @media (min-width: 768px) {

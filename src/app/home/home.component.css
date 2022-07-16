@@ -1,3 +1,4 @@
+/* summary card styling */
 .card-widget{
     font-style: normal;
     font-weight: 400;
@@ -33,16 +34,16 @@
     background: #FCFBFB;
     border-radius: 10px;
     width: 232px;
-    /* height: 245px; */
     box-shadow: 1px 0px 2px 1px rgba(0, 0, 0, 0);
 }
 
+
+/* chart and table section styling */
 
 .bottom-widgets .card{
     background: #FCFBFB;
     border-radius: 10px;
     width: 503px;
-    /* height: 410px; */
 }
 
 .bottom-widgets .card th{

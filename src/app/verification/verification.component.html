@@ -1,11 +1,12 @@
 <div class="row">
+    <!-- sidebar component -->
     <div class="col-2 d-lg-block d-sm-none siderbar-menu">
         <app-sidebar id="navmenu"></app-sidebar>
     </div>
     <div class="col">
-        <section>
+        <main>
             <app-header></app-header>
-            <main class="container-fluid">
+            <section class="container-fluid">
                 <div class="d-flex align-items-center client-name-container p-4">
                     <div class="me-3">
                         <img src="./assets/profile-placeholder.png" alt="profile-placeholder" width="80" height="80"
@@ -14,10 +15,14 @@
                     <h3>Mr. Sunday Tanko Medon</h3>
                 </div>
                 <div class="dashboard-main-container p-4">
+
+                    <!-- action buttons -->
                     <div class="action-btn-holder my-3 container">
                         <button type="button" class="btn mx-3 reject-btn">Reject</button>
                         <button type="button" class="btn cancel-btn">Cancel</button>
                     </div>
+
+                    <!-- modification buttons -->
                     <div class="action-btn-holder2 d-flex justify-content-around flex-wrap">
                         <button type="button" class="btn m-2">Generate Offer Letter</button>
                         <button type="button" class="btn m-2">Edit Loan Record</button>
@@ -26,6 +31,8 @@
                             Disbursement</button>
                         <button type="button" class="btn m-2">Upload Documents</button>
                     </div>
+
+                    <!-- laon summary collapsibles -->
                     <div class="row my-4">
                         <div class="col dropdown-cards mx-1 my-3">
                             <mat-accordion>
@@ -206,6 +213,8 @@
                             </mat-accordion>
                         </div>
                     </div>
+
+                    <!-- external details buttons -->
                     <div class="tab-btn-holder2 d-flex justify-content-around flex-wrap">
                         <button type="button" class="btn active-tab border-bottom">Verification and Affordability</button>
                         <button type="button" class="btn">Approval Checklist</button>
@@ -215,6 +224,8 @@
                         <button type="button" class="btn" routerLink="/loan-disbursement">Disbursement Details</button>
                         <button type="button" class="btn">PLAAS Schedule</button>
                     </div>
+
+                    <!-- information collapsible cards -->
                     <div class="row mt-5">
                         <div class="col mt-3">
                             <div class="dropdown-cards">
@@ -407,6 +418,8 @@
                             </div>
                         </div>
                     </div>
+
+                    <!-- more inf0rmation section -->
                     <div class="table-section mt-3">
                         <h5>RSP Salary Details</h5>
                         <div style="overflow-x:auto;">
@@ -460,7 +473,7 @@
                         </div>
                     </div>
                 </div>
-            </main>
-        </section>
+            </section>
+        </main>
     </div>
 </div>
