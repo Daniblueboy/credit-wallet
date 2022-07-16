@@ -1,129 +1,129 @@
 <div class="row">
-    <app-sidebar class="col-lg-2 d-lg-block" id="navmenu"></app-sidebar>
-    <div class="col-md-12 col-xs-12 ms-sm-auto col-lg-10 px-md-4">
-        <div class="container">
-            <section>
-                <app-header></app-header>
-                <main class="container">
-                    <div class="dashboard-main-container p-4">
-                        <div class="row card-widget">
-                            <div class="card col mx-1">
-                                <div class="card-body">
-                                    <h3 class="py-3 border-bottom border-2">New Applications</h3>
-
-                                    <div class="py-2">
-                                        <h6>Total Amount</h6>
-                                        <h2>₦78,917,029.00</h2>
-                                    </div>
-
-                                    <div class="pt-3">
-                                        <h6>Total Number of Applications</h6>
-                                        <p>852</p>
-                                    </div>
+    <div class="col-2 d-lg-block d-sm-none siderbar-menu">
+        <app-sidebar id="navmenu"></app-sidebar>
+    </div>
+    <div class="col">
+        <section>
+            <app-header></app-header>
+            <main class="container">
+                <div class="dashboard-main-container p-lg-4 p-md-2">
+                    <div class="d-flex flex-wrap justify-content-evenly card-widget">
+                        <div class="card  m-2 ">
+                            <div class="card-body">
+                                <h3 class="py-3 border-bottom border-2">New Applications</h3>
+        
+                                <div class="py-2">
+                                    <h6>Total Amount</h6>
+                                    <h2>₦78,917,029.00</h2>
                                 </div>
-                            </div>
-                            <div class="card col mx-1">
-                                <div class="card-body">
-                                    <h3 class="py-3 border-bottom border-2">Processing</h3>
-                            
-                                    <div class="py-2">
-                                        <h6>Total Amount</h6>
-                                        <h2>₦1,910,000.00</h2>
-                                    </div>
-                            
-                                    <div class="pt-3">
-                                        <h6>Total Number of Applications</h6>
-                                        <p>852</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card col mx-1">
-                                <div class="card-body">
-                                    <h3 class="py-3 border-bottom border-2">Awaiting Disbursement</h3>
-                            
-                                    <div class="py-2">
-                                        <h6>Total Amount</h6>
-                                        <h2>₦470,000.00</h2>
-                                    </div>
-                            
-                                    <div class="pt-3">
-                                        <h6>Total Number of Applications</h6>
-                                        <p>852</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card col mx-1">
-                                <div class="card-body">
-                                    <h3 class="py-3 border-bottom border-2">Ready for Disbursement</h3>
-                            
-                                    <div class="py-2">
-                                        <h6>Total Amount</h6>
-                                        <h2>₦30,000.00</h2>
-                                    </div>
-                            
-                                    <div class="pt-3">
-                                        <h6>Total Number of Applications</h6>
-                                        <p>852</p>
-                                    </div>
+        
+                                <div class="pt-3">
+                                    <h6>Total Number of Applications</h6>
+                                    <p>852</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="row mt-3 py-3 bottom-widgets">
-                            <div class="col mx-2 card">
-                                <app-chart></app-chart>
+                        <div class="card  m-2">
+                            <div class="card-body">
+                                <h3 class="py-3 border-bottom border-2">Processing</h3>
+        
+                                <div class="py-2">
+                                    <h6>Total Amount</h6>
+                                    <h2>₦1,910,000.00</h2>
+                                </div>
+        
+                                <div class="pt-3">
+                                    <h6>Total Number of Applications</h6>
+                                    <p>852</p>
+                                </div>
                             </div>
-                            <div class="col mx-2 card py-1">
-                                <h6 class="py-3">Disbursement Report (Past 4 Days)</h6>
-                                <table class="table table-striped">
-                                    <thead>
-                                        <tr>
-                                            <th scope="col">Day</th>
-                                            <th scope="col">Number of loans</th>
-                                            <th scope="col">Amount</th>
-                                            <th scope="col">Index</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>April 9, 2021</td>
-                                            <td>
-                                                0 Applicants
-                                            </td>
-                                            <td>₦0.00</td>
-                                            <td>-100%</td>
-                                        </tr>
-                                        <tr>
-                                            <td>April 9, 2021</td>
-                                            <td>
-                                                0 Applicants
-                                            </td>
-                                            <td>₦0.00</td>
-                                            <td>-100%</td>
-                                        </tr>
-                                        <tr>
-                                            <td>April 9, 2021</td>
-                                            <td>
-                                                0 Applicants
-                                            </td>
-                                            <td>₦0.00</td>
-                                            <td>-100%</td>
-                                        </tr>
-                                        <tr>
-                                            <td>April 9, 2021</td>
-                                            <td>
-                                                0 Applicants
-                                            </td>
-                                            <td>₦0.00</td>
-                                            <td>-100%</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
+                        </div>
+                        <div class="card  m-2">
+                            <div class="card-body">
+                                <h3 class="py-3 border-bottom border-2">Awaiting Disbursement</h3>
+        
+                                <div class="py-2">
+                                    <h6>Total Amount</h6>
+                                    <h2>₦470,000.00</h2>
+                                </div>
+        
+                                <div class="pt-3">
+                                    <h6>Total Number of Applications</h6>
+                                    <p>852</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card  m-2">
+                            <div class="card-body">
+                                <h3 class="py-3 border-bottom border-2">Ready for Disbursement</h3>
+        
+                                <div class="py-2">
+                                    <h6>Total Amount</h6>
+                                    <h2>₦30,000.00</h2>
+                                </div>
+        
+                                <div class="pt-3">
+                                    <h6>Total Number of Applications</h6>
+                                    <p>852</p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </main> 
-            </section>
-        </div>
+                    <div class="d-flex flex-wrap justify-content-evenly mt-3 py-3 bottom-widgets">
+                        <div class="card m-2">
+                            <app-chart></app-chart>
+                        </div>
+                        <div class="card m-2">
+                            <h6 class="py-3">Disbursement Report (Past 4 Days)</h6>
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Day</th>
+                                        <th scope="col">Number of loans</th>
+                                        <th scope="col">Amount</th>
+                                        <th scope="col">Index</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>April 9, 2021</td>
+                                        <td>
+                                            0 Applicants
+                                        </td>
+                                        <td>₦0.00</td>
+                                        <td>-100%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>April 9, 2021</td>
+                                        <td>
+                                            0 Applicants
+                                        </td>
+                                        <td>₦0.00</td>
+                                        <td>-100%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>April 9, 2021</td>
+                                        <td>
+                                            0 Applicants
+                                        </td>
+                                        <td>₦0.00</td>
+                                        <td>-100%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>April 9, 2021</td>
+                                        <td>
+                                            0 Applicants
+                                        </td>
+                                        <td>₦0.00</td>
+                                        <td>-100%</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </section>
     
     </div>
 </div>

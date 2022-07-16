@@ -8,9 +8,21 @@ import { Component, OnInit } from '@angular/core';
 export class HeaderComponent implements OnInit {
   username = "Michael"
   today= new Date
+
+  isOpen = true;
   constructor() { }
 
   ngOnInit(): void {
   }
 
+
+  openSidebar(){
+    if (this.isOpen === true){
+      this.isOpen = false
+    }
+
+    else if (this.isOpen === false){
+      this.isOpen = true
+    }
+  }
 }

@@ -77,8 +77,6 @@
 }
 
 .tab-btn-holder2{
-    height: 44px;
-    /* border: 1px solid #E0E0E0; */
     border-radius: 5px;
     font-family: 'Josefin Sans';
     font-style: normal;
@@ -94,6 +92,12 @@
 }
 
 .dropdown-cards-green .mat-expansion-panel{
+    background: #6FCF97 !important;
+    /* opacity: 0.2; */
+    border-radius: 10px;
+}
+
+.dropdown-cards-green .mat-expansion-panel :hover {
     background: #6FCF97 !important;
     /* opacity: 0.2; */
     border-radius: 10px;
@@ -122,3 +126,5 @@
 .table-section table td {
     padding: 30px;
 }
+
+
