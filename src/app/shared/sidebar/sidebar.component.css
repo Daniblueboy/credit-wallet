@@ -24,7 +24,7 @@ a{
     color: #FEE9DF !important;
 }
 
-.dash-slider-item li{
+.dash-slider-item li {
     color: #FEE9DF !important;
     font-style: normal;
     font-weight: 400;
@@ -34,4 +34,41 @@ a{
 
 a{
     color: #333333 !important
+}
+
+
+
+.extended-dash-heading{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #F56B2A;
+}
+
+.extended-dash-slider-item li a {
+    color: #FEE9DF !important;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.extended-dash-slider-item .active {
+    color: #F56B2A !important;
+}
+
+
+.extended-sidebar {
+    background: #333333;
+}
+/* media query for laptop */
+@media (min-width: 1024px) {
+    .extended-sidebar {
+            background: #333333;
+            position: absolute;
+            bottom: 60px;
+            top: 10px;
+            left: 105px;
+            width: 16%;
+        }
 }
